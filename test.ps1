@@ -1,0 +1,11 @@
+python3 run.py --do_eval --task qa --dataset squad --model .\trained_model_randhalf --output_dir ./eval_output_original_rand_half/squad;
+python3 run.py --do_eval --task qa --dataset .\data\squad_adversarial_AddOneSent.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/squad_addone;
+python3 run.py --do_eval --task qa --dataset .\data\squad_adversarial_AddSent.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/squad_addsent;
+python3 run.py --do_eval --task qa --dataset .\data\only_adversarial_AddOneSent.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/only_addone;
+python3 run.py --do_eval --task qa --dataset .\data\only_adversarial_AddSent.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/only_addsent;
+python3 run.py --do_eval --task qa --dataset .\data\half_other.jsonl --model .\trained_model_randhalf --output_dir ./eval_output_original_rand_half/half_other;
+python3 run.py --do_eval --task qa --dataset .\data\rand_only_adversarial_AddOneSent.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/rand_only;
+python3 run.py --do_eval --task qa --dataset .\data\rand_half.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/rand_half;
+python3 run.py --do_eval --task qa --dataset .\data\rand_half_other.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/rand_half_other;
+python3 run.py --do_eval --task qa --dataset .\data\rand_last_squad.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/rand_last_squad;
+python3 run.py --do_eval --task qa --dataset .\data\rand_squad.jsonl --model .\trained_model_randhalf\ --output_dir ./eval_output_original_rand_half/rand_squad;

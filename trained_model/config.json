@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "google/electra-small-discriminator",
+  "_name_or_path": ".\\trained_model\\checkpoint-32500\\",
   "architectures": [
     "ElectraForQuestionAnswering"
   ],
